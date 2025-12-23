@@ -1,0 +1,23 @@
+# config/scoring.yaml
+
+volume_spike:
+  min_ratio: 2.5
+  weight: 3
+
+vwap_position:
+  above: 0.0
+  weight: 2
+
+rsi_regime:
+  bullish: 2
+  neutral: 0
+  oversold: 1
+  overextended: -2
+
+breakout:
+  bullish: 3
+  bearish: -3
+
+atr_expansion:
+  enabled: true
+  weight: 1
