@@ -1,1 +1,4 @@
-ECHO is on.
+pandas>=2.0
+numpy>=2.0
+pyyaml>=6.0
+pytest>=8.0

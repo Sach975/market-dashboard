@@ -53,4 +53,7 @@ def calculate_score(
     if config["atr_expansion"]["enabled"]:
         score += metrics["atr_expansion"] * config["atr_expansion"]["weight"]
 
+    # Ensure score has no NaNs
+    score = score.fillna(0)
     return score
+

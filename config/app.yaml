@@ -1,0 +1,16 @@
+# config/app.yaml
+
+market:
+  timezone: Asia/Kolkata
+  open: "09:15"
+  close: "15:30"
+
+data:
+  min_rows_required: 20
+  allowed_timeframes:
+    - "1m"
+    - "5m"
+    - "15m"
+
+scoring:
+  nan_policy: "ignore"   # ignore | zero | drop
